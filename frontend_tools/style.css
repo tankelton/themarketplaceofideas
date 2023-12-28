@@ -1,0 +1,8 @@
+.context-menu-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.context-menu-item:hover {
+    background-color: #e0e0e0;
+}

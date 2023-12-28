@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DAO Creator</title>
+</head>
+<body>
+    <h1>Create a New DAO</h1>
+
+    <!-- Wallet Section -->
+    <div>
+        <button id="generateWallet">Generate New Wallet</button>
+        <p>Your Wallet Address: <span id="walletAddress"></span></p>
+    </div>
+
+    <!-- DAO Creation Form -->
+    <form id="daoForm">
+        <label for="daoName">DAO Name:</label>
+        <input type="text" id="daoName" name="daoName" required><br>
+
+        <label for="daoDescription">DAO Description:</label>
+        <textarea id="daoDescription" name="daoDescription" required></textarea><br>
+
+        <input type="submit" value="Create DAO">
+    </form>
+
+    <!-- Include the JavaScript file -->
+    <script src="dao.js"></script>
+</body>
+</html>
